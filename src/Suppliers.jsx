@@ -33,7 +33,7 @@ function Suppliers({loading, setLoading, suppliers, loadData}) {
                                 <td>{supplier.companyName}</td>
                                 <td>{supplier.contactName}</td>
                                 <td>{supplier.address?.country}</td>
-                                <td><button onClick={() => deleteSupplier(supplier.id)}>Delete</button></td>
+                                <td><button style={{ cursor: 'pointer'}} onClick={() => deleteSupplier(supplier.id)}>Delete</button></td>
                             </tr>
                         )}
                     </tbody>

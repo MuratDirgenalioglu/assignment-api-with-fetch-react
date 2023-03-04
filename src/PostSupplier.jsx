@@ -52,7 +52,7 @@ function PostSupplier({ setLoading, loadData }) {
                     <input type="text" id='country' value={country} onChange={(e) => setCountry(e.target.value)} />
                 </div>
                 <div>
-                    <button onClick={addSupplier}>Add Supplier</button>
+                    <button style={{ cursor: 'pointer'}} onClick={addSupplier}>Add Supplier</button>
                 </div>
             </div>
 
